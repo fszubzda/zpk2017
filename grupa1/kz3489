@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    long long int n;
+    cin >> n;
+    int i;
+
+    for(i=2; i*i<n; i++) {
+        if(n % i == 0)
+            cout << "Zlozona";
+            return 0;
+    }
+
+    cout << "Pierwsza";
+}
