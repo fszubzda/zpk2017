@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int liczbap;
+    int p = 0;
+
+            cin >> liczbap;
+            for(int i = 1; i <= liczbap ; i++){
+                if(liczbap % i == 0){
+                    p ++;
+                }
+            }
+
+    if (p == 2){
+        cout << "pierwsza" << endl;
+    } else cout <<"zlozona" << endl;
+
+    return 0;
+}
