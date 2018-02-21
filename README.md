@@ -1,1 +1,1 @@
-# zpk2017
+github.com/anagorko/zpk2017
