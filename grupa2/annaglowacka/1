@@ -1,0 +1,25 @@
+#include <iostream>
+
+
+using namespace std;
+
+
+int main()
+{
+  int n=0;
+  int liczba=0;
+  cout<<"Podaj liczbę: ";
+  cin>>n;
+
+  for(int i=1;i<=n;i++){
+    if(n%i==0)
+   liczba=liczba+1;
+
+  }
+
+  if(liczba>2)
+    cout<<"Zlozona"<<endl;
+  else
+  cout<<"Pierwsza"<<endl;
+}
+
